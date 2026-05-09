@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "_id": "600c49376e464958b0cb08ef",
+      "name": "Admin",
+      "mobileNumber": "9999999999",
+      "email": "admin@piyushwatch.com",
+      "passwordHash": "$2b$10$DGdP0ev3IR7ao8i/x3DzteU0OJkXIyRtZAnLWWCp5CQZ37jhMYr9a",
+      "role": "admin",
+      "active": true,
+      "verified": true,
+      "otp": null,
+      "otpExpiry": null,
+      "resetOtp": null,
+      "resetOtpExpiry": null,
+      "createdAt": "2026-05-08T14:36:25.531Z"
+    },
+    {
+      "_id": "c6255461571a4939b1fa9967",
+      "name": "naresh",
+      "mobileNumber": "8888888888",
+      "email": "seervinaresh620@gmail.com",
+      "passwordHash": "$2b$10$CY48HYD/AZl29AbbOX.SjOKkYyQnHPOY3pJyWHAiL4d866O7kAnk.",
+      "role": "user",
+      "active": true,
+      "verified": true,
+      "otp": "832660",
+      "otpExpiry": 1778252143254,
+      "resetOtp": "325930",
+      "resetOtpExpiry": 1778254290060,
+      "createdAt": "2026-05-08T14:45:43.254Z"
+    },
+    {
+      "_id": "926177c884624888804e951f",
+      "name": "naresj",
+      "mobileNumber": "5555555555",
+      "email": "sirvinaresh008@gmail.com",
+      "passwordHash": "$2b$10$oO/zWeRRH9HISfp.RRnfHe0hZRr090JhabWDCWCZFS1UXTnPZ/VEC",
+      "role": "user",
+      "active": true,
+      "verified": true,
+      "otp": "851937",
+      "otpExpiry": 1778253005254,
+      "resetOtp": null,
+      "resetOtpExpiry": null,
+      "createdAt": "2026-05-08T15:00:05.254Z"
+    },
+    {
+      "_id": "87dc66f7c61249d192e883be",
+      "name": "gshn",
+      "mobileNumber": "7846530",
+      "email": "sgd@gmail.com",
+      "passwordHash": "$2b$10$wyJO8UCmir8CMuhkI3OPa.HK2ct6LwxTIa/Gd1HtJ//InAOdF77mC",
+      "role": "user",
+      "active": true,
+      "verified": true,
+      "otp": "958450",
+      "otpExpiry": 1778253574574,
+      "resetOtp": null,
+      "resetOtpExpiry": null,
+      "createdAt": "2026-05-08T15:09:34.574Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "9127e5a68a74438f99083e73",
+      "name": "hmhtg",
+      "brand": "Sheen",
+      "price": 45,
+      "imageUrl": "/uploads/1778251398590-Naresh_Kumar-linkdin.png",
+      "imageUrls": [
+        "/uploads/1778251398590-Naresh_Kumar-linkdin.png"
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "userId": "600c49376e464958b0cb08ef",
+      "items": []
+    }
+  ],
+  "orders": [
+    {
+      "_id": "5d12d69d1d3948f48d07bdf1",
+      "userId": "600c49376e464958b0cb08ef",
+      "items": [
+        {
+          "productId": "3be5b6220da44057b96067a6",
+          "name": "G-Shock Rangeman GW-9400",
+          "brand": "G-Shock",
+          "price": 25999,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 25999,
+      "paymentMethod": "COD",
+      "deliveryAddress": "prkhkrot",
+      "status": "Delivered",
+      "createdAt": "2026-05-08T14:44:40.176Z"
+    }
+  ]
+}
